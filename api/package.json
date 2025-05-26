@@ -1,0 +1,14 @@
+{
+  "name": "anatomie-api",
+  "version": "1.0.0",
+  "description": "Anatomie AI backend service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "health": "node -e \"console.log('OK')\""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
